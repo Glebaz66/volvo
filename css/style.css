@@ -369,10 +369,11 @@ article img{
 /* form */
 .address {
 	margin: 15px 0;
+	font-size: 20px;
 }
 .address > a {
 	color: #000;
-	font-size: 16px;
+	/* font-size: 16px; */
 	text-decoration: none;
 }
 .bolder {
@@ -473,7 +474,7 @@ article img{
 		font-size: 23px;
 	}
 	.product__info-text {
-		padding: 5px;
+		padding: 12px;
 		font-size: 15px;
 	}
 		article img {
