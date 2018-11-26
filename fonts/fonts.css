@@ -1,40 +1,24 @@
 @font-face { 
-    font-family: 'VolvoWeb'; 
-    src: url('VolvoSerifWeb-Bold.eot'); /* IE9 */ 
-    src: url('VolvoSerifWeb-Bold.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
-    url('VolvoSerifWeb-Bold.woff') format('woff');		/*	Modern	Browsers	*/ 
-    font-weight: 900;
+    font-family: 'VolvoWebNovum'; 
+    src: url('Volvo Novum-Regular.eot'); /* IE9 */ 
+    src: url('Volvo Novum-Regular.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
+    url('Volvo Novum-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'VolvoWebNovum-Medium'; 
+    src: url('Volvo Novum-Medium.eot'); /* IE9 */ 
+    src: url('Volvo Novum-Medium.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
+    url('Volvo Novum-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face { 
+    font-family: 'VolvoWebNovum-Bold'; 
+    src: url('Volvo Novum-Bold.eot'); /* IE9 */ 
+    src: url('Volvo Novum-Bold.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
+    url('Volvo Novum-Bold.woff') format('woff');		/*	Modern	Browsers	*/ 
+    font-weight: 400;
     font-style: bold;
-}
-@font-face { 
-    font-family: 'VolvoWeb'; 
-    src: url('VolvoSerifWeb-Regular.eot'); /* IE9 */ 
-    src: url('VolvoSerifWeb-Regular.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
-    url('VolvoSerifWeb-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face { 
-    font-family: 'VolvoWeb'; 
-    src: url('VolvoSerifWeb-Italic.eot'); /* IE9 */ 
-    src: url('VolvoSerifWeb-Italic.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
-    url('VolvoSerifWeb-Italic.woff') format('woff');		/*	Modern	Browsers	*/ 
-    font-weight: 400;
-    font-style: italic;
-}
-@font-face { 
-    font-family: 'VolvoWebNovum'; 
-    src: url('Volvo Novum-Regular.eot'); /* IE9 */ 
-    src: url('Volvo Novum-Regular.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
-    url('Volvo Novum-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face { 
-    font-family: 'VolvoWebNovum'; 
-    src: url('Volvo Novum-Regular.eot'); /* IE9 */ 
-    src: url('Volvo Novum-Regular.eot') format('embedded-opentype'),	/*	IE6-IE8	*/ 
-    url('Volvo Novum-Regular.woff') format('woff');		/*	Modern	Browsers	*/ 
-    font-weight: 400;
-    font-style: normal;
 }
