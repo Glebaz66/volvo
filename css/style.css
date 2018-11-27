@@ -38,6 +38,7 @@ input{display:none}
 #container{width:100%;overflow:hidden}
 article img{
 	height: 830px;
+	width: 100%;
 }
 #slides .inner{
 	width:500%;
@@ -385,6 +386,9 @@ article img{
 	.cover {
 		clip-path: none;
 		width: 100vw;
+	}
+	article img {
+		width: initial;
 	}
 }
 @media only screen and (max-width:992px){
