@@ -429,7 +429,7 @@ article img{
 	}
 	#commands {
 		bottom: 80px;
-		left: 90px;
+		/* left: 90px; */
 	}
 	#active {
 		bottom: 130px;
