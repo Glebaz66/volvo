@@ -5,8 +5,9 @@ body {
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
-	font-family: sans-serif;
+	font-family: 'Arial', sans-serif;
 	background-color: #ececec;
+	letter-spacing: -0.5px;
 }
 .mobile-menu {
 	display: none;
@@ -436,7 +437,9 @@ footer img {
 	}
 }
 @media only screen and (max-width:750px){
-
+	article img {
+		width: 766px;
+	}
 }
 @media only screen and (max-width:724px){
 	#commands {
