@@ -5,7 +5,7 @@ body {
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0;
-	font-family: 'VolvoNovum';
+	font-family: sans-serif;
 	background-color: #ececec;
 }
 .mobile-menu {
@@ -173,17 +173,15 @@ article img{
 	padding: 20px;
 	color: #fff;
 	font-size: 18px;
-	background-color: #2b7bcd;
-	border: 1px solid #1f658d;
-	border-radius: 3px;
+	background-color: transparent;
+	border: 1px solid #fff;
 	cursor: pointer;
 	text-transform: uppercase;
 	transition: all .3s ease-in-out;
-	font-family: 'VolvoWebNovum';
 	font-weight: 800;
 }
 .white-btn:hover {
-	background-color: #40a0ff;
+	background-color: #fff;
 	outline: 0;
 	text-decoration: none;
 	color: #000;
@@ -200,17 +198,17 @@ article img{
     position: absolute;
 	top: 230px;
 	left: 18%;
-	background: rgba(255, 255, 255, 0.6);
-	width: 50%;
+	background: rgba(246, 246, 246, 0.4);
+	width: 55%;
 }
 .product__heading {
 	padding: 15px;
 }
 .product__heading__text {
     color: #000;
-    font-size: 40px;
+    font-size: 30px;
     text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
 }
 .product__price__text {
 	font-size: 18px;
@@ -238,13 +236,12 @@ article img{
 	padding-right: 0 !important;
 }
 .cover {
-	width: 87%;
+	width: 84%;
 	height: 830px;
 	background-color: rgba(26, 25, 25, 0.5);
 	position: absolute;
 	top: 1px;
 	left: 15px;
-	clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
 .product__info {
 	text-align: justify;
@@ -277,29 +274,26 @@ article img{
 	width: 320px;
 	margin: 0 auto;
 	padding: 10px;
-	font-size: 20px;
-	border: 2px solid rgba(105, 105, 105, 0.5);
-	border-radius: 3px;
+	font-size: 19px;
+	border: 1px solid rgba(246, 246, 246, .5);
 	background: rgba(255, 255, 255, .5);
 	outline: none;
 	color: #333;
 }
 .form-wrap input[type="submit"]{
 	padding: 20px;
-	color: #fff;
+	color: #000;
 	font-size: 18px;
-	background-color: #2b7bcd;
-	border: 1px solid #1f658d;
-	border-radius: 3px;
+	background-color: transparent;
+	border: 1px solid #fff;
 	cursor: pointer;
 	text-transform: uppercase;
 	transition: all .3s ease-in-out;
 }
 .form-wrap input[type="submit"]:hover {
-	background-color: #40a0ff;
+	background-color: #fff;
 	outline: 0;
 	text-decoration: none;
-	color: #000;
 }
 .form-custom {
 	margin: 0 auto;
@@ -401,9 +395,11 @@ article img{
 	right: 2%;
 	bottom: 2%;
 }
+footer img {
+	width: 50px;
+}
 @media only screen and (max-width:1060px){
 	.cover {
-		clip-path: none;
 		width: 100vw;
 	}
 	article img {
@@ -429,7 +425,7 @@ article img{
 	}
 	#commands {
 		bottom: 80px;
-		/* left: 90px; */
+		left: 90px;
 	}
 	#active {
 		bottom: 130px;
