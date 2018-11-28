@@ -437,8 +437,10 @@ footer img {
 	}
 }
 @media only screen and (max-width:750px){
-	article img {
-		width: 766px;
+	.img-wrap {
+		position: relative;
+		z-index: -1;
+		left: -180px;
 	}
 }
 @media only screen and (max-width:724px){
@@ -504,6 +506,11 @@ footer img {
 	}
 	.bolder {
 	    font-size: 22px;    
+	}
+	.img-wrap {
+		position: relative;
+		z-index: -1;
+		left: -180px;
 	}
 }
 @media only screen and (max-width:423px){
