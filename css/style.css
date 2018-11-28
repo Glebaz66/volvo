@@ -39,7 +39,7 @@ input{display:none}
 #slide5:checked ~ #slides .inner{margin-left:-400%}
 #container{width:100%;overflow:hidden}
 article img{
-	height: 830px;
+	height: 1000px;
 	width: 100%;
 }
 #slides .inner{
@@ -238,7 +238,7 @@ article img{
 }
 .cover {
 	width: 84%;
-	height: 830px;
+	height: 1000px;
 	background-color: rgba(26, 25, 25, 0.5);
 	position: absolute;
 	top: 1px;
@@ -405,6 +405,9 @@ footer img {
 	}
 	article img {
 		width: initial;
+	}
+	.product {
+		left: 23%;
 	}
 }
 @media only screen and (max-width:992px){
