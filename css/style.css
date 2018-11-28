@@ -212,7 +212,7 @@ article img{
     font-weight: 600;
 }
 .product__price__text {
-	font-size: 18px;
+	font-size: 30px;
 	color: #000;
 }
 .product__price__text-big {
@@ -374,6 +374,9 @@ article img{
 	color: #000;
 	/* font-size: 16px; */
 	text-decoration: none;
+}
+.address > .sm {
+	font-size: 8px;
 }
 .bolder {
     font-weight: 800;
