@@ -197,7 +197,7 @@ article img{
 /* products */
 .product {
     position: absolute;
-	top: 230px;
+	top: 60px;
 	left: 18%;
 	background: rgba(246, 246, 246, 0.5);
 	width: 55%;
@@ -426,7 +426,7 @@ footer img {
 		margin: 15px 0;
 	}
 	.product {
-		top: 120px;
+		top: 70px;
 	}
 	.product__heading__text {
 		transform: none;
@@ -548,11 +548,11 @@ footer img {
 	}
 	#commands {
 		left: 8px;
-		bottom: 50px;
+		bottom: 0px;
 	}
 	#active {
 		left: 138px;
-		bottom: 100px;
+		bottom: 50px;
 	}
 	.form-wrap input {
 		width: 270px;
@@ -561,7 +561,7 @@ footer img {
 		right: 13%;
 	}
 	.product {
-		top: 130px;
+		top: 30px;
 	}
 }
 
